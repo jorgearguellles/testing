@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TestAsync from './components/TestAsync';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <TestAsync />
       </header>
     </div>
   );
